@@ -1,0 +1,31 @@
+h1 {
+  background-color: rgb(179, 248, 4);
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hop1 {
+  background-color: rgb(128, 9, 0);
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hop2 {
+  background-color: rgb(255, 17, 0);
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hop3 {
+  background-color: rgb(11, 218, 80);
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}

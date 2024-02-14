@@ -1,0 +1,160 @@
+<h1 style="text-align: center">RiderPD Parent</h1>
+<!-- <div>Rocking Angular 17!!</div> -->
+<!-- input the operation : <input type="text" #operator (keypress)="(0)" /> -->
+<!-- <button>add</button>
+<button>substract</button>
+<button>product</button>
+<button>minus</button> -->
+
+<!-- <div style="margin: 1rem 0rem">value of app parent data : {{ appData }}</div> -->
+
+<!-- <app-student [operator]="operator.value"></app-student> -->
+<!-- <app-student (studentEvent)="sendData($event)"></app-student> -->
+
+<!-- similar to above where we are passing the value of operator to the student component directly where an function is not invloved-->
+<!-- <app-student (studentEvent)="appData = $event"></app-student> -->
+
+<app-student></app-student>
+
+<!-- value of operation is : {{operator}} -->
+<!-- for class selector -->
+<!-- <div class="student"></div> -->
+
+<!-- for attribute selector -->
+<!-- <div student></div> -->
+
+<!-- conditional directives are used to manipulate the DOM by not just hiding but also adding and removing elements from the DOM. -->
+<!-- @if(false){
+<div style="align-items: center; padding: 0 42rem">Hello RiderPD !!</div>
+} -->
+
+<!-- <button (click)="toggle()">toggle</button>
+@if(isLoggedin){
+<div>User is logged in</div>
+} @else{
+<div>User is not logged in</div>
+} -->
+
+<!-- internal break statement works only with the switch statement -->
+<!-- <input type="text" #name (input)="(0)" />
+@switch (name.value) {
+    @case('RiderPD') {
+        <div>Hello RiderPD</div>
+    }
+    @case('Angular') {
+        <div>Hello Angular</div>
+    }
+    @default {
+        <div>Default</div>
+    }
+} -->
+
+<!-- {{riderParent}} -->
+<!-- @for (item of riderParent; track item.id) {
+<ul style="list-style: none">
+  <li>{{ item.id }} - {{ item.name }}</li>
+</ul>
+} -->
+<!-- <table
+  border="1"
+  style="margin: 1rem 0rem; padding: 1rem 0rem; text-align: center; width: 50%"
+>
+  <tr>
+    <th>Sr. No.</th>
+    <th>Id</th>
+    <th>Name</th>
+    <th>More</th>
+  </tr>
+
+  @for (item of riderParent; track item.id; let pos = $index, e = $even, o =
+  $odd, f = $first, l = $last, c = $count) {
+  <tr [style.background-color]="e ? 'lightgray' : 'white'">
+    @if(o){
+    <td>{{ pos + 1 }}</td>
+    <td>{{ item.id }}</td>
+    <td>{{ item.name }}</td>
+    } @else if (e) {
+    <td>{{ pos + 1 }}</td>
+    <td>{{ item.id }}</td>
+    <td>{{ item.name }}</td>
+    } @else if(f) {
+    <td>First {{ pos + 1 }}</td>
+    <td>{{ item.id }}</td>
+    <td>{{ item.name }}</td>
+    } @else if(l) {
+    <td>Last {{ pos + 1 }}</td>
+    <td>{{ item.id }}</td>
+    <td>{{ item.name }}</td>
+    }
+    <td>more {{ c - pos - 1 }} to go</td>
+  </tr>
+  }@empty {
+  <tr>
+    <td colspan="2">No data found</td>
+  </tr>
+  }
+</table> -->
+
+<!-- <div style="background-color: aquamarine">Hello RiderPD</div>
+<div [ngStyle]="{'background-color': rolling ? 'lightgray' : 'white'}">
+    rick n roll
+</div> -->
+
+<!-- ngClass with string -->
+<!-- <div class="hop1">Hello RiderPD</div> -->
+
+<!-- <div [ngClass]="'hop2 hop1'">ngClass string</div> -->
+
+<!-- ngClass with array -->
+<!-- <div [ngClass]="['hop1', 'hop2']">ngClass Array</div> -->
+
+<!-- ngClass with object -->
+<!-- <div [ngClass]="{ hop1: true, hop2: false, hop3: false }">ngClass Object</div> -->
+
+<!-- interpolation with error handling-->
+<!-- <div>My city is : {{ city + " which is in " + state + " and " + country }}</div>
+<button (click)="toggle()">toggle</button>
+<div>
+  {{ num1 + num2 }} <br />
+  {{ num1 - num2 }} <br />
+  {{ num1 * num2 }} <br />
+  {{ num1 / num2 }} <br />
+  {{ num1 % num2 }} <br />
+</div> -->
+<!-- <div>
+  {{ City ? City.name : "City not found" }}
+  <br />
+  {{ City ? City.state : "State not found" }}
+  <br />
+  {{ City ? City.country : "Country not found" }}
+</div> -->
+
+<!-- attribute binding -->
+<!-- <div>
+  <table border="1">
+    <tr>
+      <th>Sr. No.</th>
+      <th>Id</th>
+      <th [attr.colspan]="col">Name</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>101</td>
+      <td>RiderPD</td>
+      <td>more 2 to go</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>102</td>
+      <td>Angular</td>
+      <td>more 1 to go</td>
+    </tr>
+  </table>
+</div> -->
+
+<!-- Property Binding -->
+<!-- <h2>Property Binding</h2>
+<span [innerHTML]="name"> </span>
+
+<h2>Interpolation</h2>
+<span innerHTML="{{ name }}"></span> -->
