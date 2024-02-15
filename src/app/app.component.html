@@ -158,3 +158,48 @@
 
 <h2>Interpolation</h2>
 <span innerHTML="{{ name }}"></span> -->
+
+<!-- <h2>Property Binding</h2>
+<button [disabled]="curr">
+  <span>Click me</span>
+</button> -->
+
+<!-- this will not work as the disabled attribute is not a property of the button element -->
+<!-- <h2>Interpolation</h2>
+<button disabled="{{ curr }}">
+  <span>Click me</span>
+</button>
+
+<button (click)="toggle()">Toogle</button> -->
+
+<!-- Style Binding -->
+<!-- <button style="background-color: aqua">Click Me</button>
+<br />
+<button style="background-color: aqua" [style.font-weight]="isBlod">
+  Click Me
+</button>
+<button style="background-color: aqua" [style.font-size.px]="fontSize">
+  Click Me
+</button> -->
+
+<!-- Class Binding -->
+<!-- <button class="hop1">Click Me</button>
+<button class="hop1" [class]="classApply">Click Me</button>
+<button class="hop1" [class.hop2]="isBold">Click Me</button>
+<button (click)="toggle()">toggle</button> -->
+
+<!-- Event Binding -->
+<!-- <button (click)="onClick()">Click Me</button>
+<button on-click="onClick()">Click Me</button> -->
+<!-- <br/> -->
+<!-- <input type="text" on-keyup="keyup()" on-keydown="keydown()"> -->
+
+<!-- Enter the value:
+<input
+  type="text"
+  on-keyup="keyup()"
+  #txtname
+  (keyup)="onClick(txtname.value)"
+/>
+
+Your name is : {{ name }} -->

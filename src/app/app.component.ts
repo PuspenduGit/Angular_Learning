@@ -76,7 +76,7 @@ export class AppComponent {
   // ]
 
   // riderParent: any[];
-  
+
   // rolling: boolean = true;
 
   // city: string = 'Pune';
@@ -100,5 +100,35 @@ export class AppComponent {
 
   // col: number = 2;
 
-  name: string = 'Angular';
+  // name: string = 'Angular';
+
+  // curr: boolean = false;
+
+  // toggle(){
+  //   this.curr = !this.curr;
+  // }
+
+  // isBlod: string = 'bold';
+  // fontSize: string = '30';
+
+  // classApply: string = 'boldClass italicClass';
+  // isBold: boolean = true;
+
+  // toggle() {
+  //   this.isBold = !this.isBold;
+  // }
+
+  // name: string = 'Angular';
+
+  // onClick(e:any) {
+  //   this.name = e;
+  // }
+
+  // keyup() {
+  //   console.log('Key up event');
+  // }
+
+  // keydown() {
+  //   console.log('Key down event');
+  // }
 }
